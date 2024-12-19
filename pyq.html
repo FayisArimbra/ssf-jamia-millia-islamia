@@ -108,6 +108,38 @@ table {
   border-spacing: 0;
 }
 
+
+      #div1 {
+        width: 90%;
+      }
+      
+      .feedback-btn {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        background-color: red;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        width: fit-content;
+      }
+      
+      .feedback-btn:hover {
+        background-color: darkred;
+      }
+
+      @media (max-width: 600px) {
+        .feedback-btn {
+          font-size: 14px;
+          padding: 8px 16px;
+        }
+      }
+     
+
 img, video, svg {
   display: block;
   max-width: 100%;
@@ -453,7 +485,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </table>
          </div>
           <br><br>
-
+		<button class="feedback-btn" onclick="window.location.href='ssfjamia.in'">Send Feedback</button>
+          <br><br>
        </div>
        
         <div>
